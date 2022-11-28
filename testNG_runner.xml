@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- How to run each packages ? -->
+<suite name="Krafttech Automation" verbose="1">
+    <test name="Krafttech Smoke Test">
+        <packages>
+            <package name="com.krafttechnologie.test.day18_ExtentReport"></package>
+        </packages>
+    </test>
+</suite>
